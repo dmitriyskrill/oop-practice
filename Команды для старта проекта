@@ -1,0 +1,34 @@
+npm init -y: инициализируем проект
+npm i -D typescript: Добавляем TypeScript
+npm i @types/node -D: Добавляем типы для Node JS
+npx tsc -init: Генерируем tsconfig, для компиляции
+    "compilerOptions": {
+        "target": "es2018",
+        "lib": ["ES6"],
+        "module": "NodeNext",
+        "rootDir": "./src",
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "sourceMap": true,
+        "outDir": "./build",
+        "removeComments": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true
+    }
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+    "lib": ["esnext"],
+    "ts-node": {
+      "esm": true
+    }
+
+npm i -D ts-node nodemon
+Создаем nodemon.json
+npm i -D rimraf: для очистки билда перед компановкой. Кроссплатформенный
+npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+.eslintrc
+npm i -D prettier
+.prettierrc
+npm i -D husky: для запуска линта перед коммитом

@@ -1,0 +1,14 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    //Как в tsconfig "target": "es2018"
+    "sourceType": "module"
+  },
+  "rules": {
+
+  }
+}

@@ -1,0 +1,6 @@
+// import './inheritance/syntax.js'
+// import './polymorphism/parametric.js'
+// import './polymorphism/ad-hoc.js'
+// import './compositionAndAggregation/index.js'
+// import './practice/dependencyInjection/index.js'
+import './practice/singleton/index.js'
